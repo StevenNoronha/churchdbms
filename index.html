@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Parish Directory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
+  <script src="https://kit.fontawesome.com/f7fe4b7c39.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+  background-image:linear-gradient(to right, rgba(245, 246, 252, 0.148), rgb(255, 255, 255)),url('./photos/church.webp');
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: 0% -20%;
+  color: white;
+  }
+  body:before {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  @media only screen and (max-width: 400px){
+  body {
+        background-image:linear-gradient(to right, rgba(245, 246, 252, 0.3), rgb(255, 255, 255)),url('./photos/church.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 35% 2rem;
+        background-attachment: fixed;
+        height: 100%;
+        color: white;
+    }
+  }
+  </style>
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+
+  <nav class="navbar">
+    <div class="navbar">
+      <a class="#" href="./index.html">
+        <img src="./photos/logo.png" width="80" height="60"></a>
+      <div class="nav1">
+        <ul class="nav-toggle" id="togglen">
+          <li><a class="#" href="./index.html" style="font-weight: 500;font-size: x-large;">Diocese of Belgaum</a></li>
+          <li><a class="#" href="./login/fill.php">Fill Family Details </a></li>
+          <li><a class="#" href="./login/view.php">View Family Details</a></li>
+          <li>
+            <div class="dropdown">
+              <p class="dropbtn">More</p>
+              <div class="dropdown-content">
+                <a href="./login/churchd.php">Church's</a>
+                <a href="./login/commitd.php">Commitee's</a>
+                <a href="./login/zoned.php">Zones</a>
+                <hr>
+                <a href="./login/about.html">About Us</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-toggle1" id="togglenew"><button class="lbutton" onclick="location.href='./login/login.php'"
+        type="button">
+        <b>Admin</b></button></div>
+   <a href="#" id="toggle">
+      <i class="fa-solid fa-bars fa-2xl" id="ham" style="height: 20px;"></i>
+   </a>
+  </nav>
+
+  <!-- hero section -->
+
+  <div class="hero para example2">
+    <div>
+      <h1 style="text-align: end;">Welcome To <br>Diocese of Belgaum</h1>
+    </div>
+    <div>
+      <hr style="height: .2rem;background: rgb(75, 6, 81);">
+      <p class="para2">Get started by filling in your family details</p>
+    </div>
+    <div>
+      <button class="nbutton lbutton" onclick="location.href='. /login/fill.php'" type="button">
+        <b>Get Started</b></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
