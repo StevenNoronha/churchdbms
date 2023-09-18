@@ -10,3 +10,15 @@ To run
 
 ## Working Website
 Here is a preview of the website [Diocese Of Belgaum](http://belgaumdiocese.epizy.com/)
+
+## Screenshots
+1) Landing page
+![image](https://github.com/StevenNoronha/churchdbms/assets/125193808/f79ec80f-aec5-48f4-a0bf-df9b3d951b54)
+
+2) Fill details page
+![image](https://github.com/StevenNoronha/churchdbms/assets/125193808/67d184e4-1cff-4dc0-a8c0-f1d59c7eedb4)
+
+3) Admin page
+![image](https://github.com/StevenNoronha/churchdbms/assets/125193808/e9218bf0-2be2-4321-b84a-f82276a2e6a7)
+
+
